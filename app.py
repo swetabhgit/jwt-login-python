@@ -80,7 +80,7 @@ def verifyToken():
     return 'false'     
 
 if __name__== '__main__':
-    app.run(port=80)
+    app.run(host="0.0.0.0",port=80)
 # import boto3
 # # # configuring dnamoDB
 # dynamodb= boto3.resource('dynamodb')
